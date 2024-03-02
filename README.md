@@ -138,6 +138,18 @@ Install-Module PSReadLine -Force
 . $PROFILE
 ```
 
+
+- Change Powershell directories with Terminal-Icons
+
+```
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
+- And then add one line to my $profile
+
+```
+Import-Module -Name Terminal-Icons
+```
+
 <br/>
 
 # 💰 You can help me by Donating
