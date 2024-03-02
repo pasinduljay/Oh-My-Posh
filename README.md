@@ -64,29 +64,33 @@ Set-ExecutionPolicy RemoteSigned
 ```
 - **Type A and press Enter**
 
-### Installs PowerShellGet module to forcefully using PowerShell command
+```
+. $profile
+```
+- **Now you can see the default profile**
+
+- **lets edit it**
 
 ```
-Install-Module -Name PowerShellGet -Force
-```
-- **Type Y and press Enter**
-
-### Installs PSReadLine module forcefully in PowerShell.
-
-```
-Install-Module PSReadLine -Force
+notepad $profile
 ```
 
-### Now you can see the Changes
+after notepad opened, pste this
 
 ```
-. $PROFILE
+oh-my-posh init pwsh --config 'C:\Users\Luci\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json.omp.json' | Invoke-Expression
+
 ```
-<br/>
 
-## Additional
+and save and exit from notepad
 
-### If you are using PowerShell, you can display every available theme using the following PowerShell cmdlet
+now again load the profile
+
+```
+. $profile
+```
+
+customise your profile
 
 ```
 Get-PoshThemes
@@ -104,6 +108,35 @@ Get-PoshThemes
 - ```
   oh-my-posh --init --shell pwsh --config "~/AppData/Local/Programs/oh-my-posh/themes/{theme name}.json" | Invoke-Expression
    ```
+
+and save and exit from notepad
+
+now again load the profile
+
+```
+. $profile
+```
+
+if you got some errors 
+
+### Installs PowerShellGet module to forcefully using PowerShell command
+
+```
+Install-Module -Name PowerShellGet -Force
+```
+- **Type Y and press Enter**
+
+### Installs PSReadLine module forcefully in PowerShell.
+
+```
+Install-Module PSReadLine -Force
+```
+
+### Now you can see the Changes by open a new tab and run
+
+```
+. $PROFILE
+```
 
 <br/>
 
