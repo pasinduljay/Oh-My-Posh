@@ -149,6 +149,17 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 Import-Module -Name Terminal-Icons
 ```
+### Add It as Extra line in the Profile
+
+-  ```
+   notepad $PROFILE
+   ```
+
+- ```
+   Import-Module -Name Terminal-Icons
+   ```
+
+save and close the notepad. then restart the terminal and run `ls` command to see changes
 
 <br/>
 
