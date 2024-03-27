@@ -55,7 +55,7 @@ notepad $PROFILE
 **Insert Bellow code and Save the document**
 
 - ```
-  oh-my-posh init pwsh | Invoke-Expression"
+  oh-my-posh init pwsh | Invoke-Expression
   ```
 ### To allow running locally signed scripts enhances PowerShell security.
 
