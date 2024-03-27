@@ -78,7 +78,7 @@ notepad $profile
 after notepad opened, pste this
 
 ```
-oh-my-posh init pwsh --config 'C:\Users\Luci\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\Luci\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' | Invoke-Expression
 
 ```
 
