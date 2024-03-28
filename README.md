@@ -106,7 +106,7 @@ Get-PoshThemes
    ```
 
 - ```
-  oh-my-posh --init --shell pwsh --config "~/AppData/Local/Programs/oh-my-posh/themes/{theme name}.json" | Invoke-Expression
+  oh-my-posh --init --shell pwsh --config "~/AppData/Local/Programs/oh-my-posh/themes/{theme name}.omp.json" | Invoke-Expression
    ```
 
 and save and exit from notepad
