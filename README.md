@@ -157,7 +157,7 @@ Import-Module -Name Terminal-Icons
    ```
 
 - ```
-   Import-Module -Name Terminal-Icons
+  Import-Module -Name Terminal-Icons
    ```
 
 save and close the notepad. then restart the terminal and run `ls` command to see changes
