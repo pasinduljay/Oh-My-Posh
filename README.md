@@ -19,7 +19,7 @@ https://www.nerdfonts.com/
 Now we need to install the **Posh** shell in our Powershell or Bash. You can easily install it in the Windows by using the commands below.
 
 We will also install **oh-my-posh** which is a nice configuration extension to the **Posh** shell. <br>
-
+**Please use Powershell For All Execution**
 ```
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
@@ -33,6 +33,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 ### Oh My Posh was designed to use Nerd Fonts. Nerd Fonts are popular fonts that are patched to include icons
 
 #### To Install Nerd Fonts :
+**Please Restart PowerShell Before Begin**
 
 ```
 oh-my-posh font install 
@@ -137,7 +138,7 @@ Install-Module PSReadLine -Force
 ```
 . $PROFILE
 ```
-
+**Restart PowerShell and Enjoy !!!**
 
 ### Change Powershell directories with Terminal-Icons
 
